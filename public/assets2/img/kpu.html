@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="KPU Kab. Banyumas" />
+	<meta name="description" content="Website Resmi KPU Kabupaten Banyumas">
+	<!-- Document title -->
+	<title>KPU Kab. Banyumas</title>
+	<link href="https://kab-banyumas.kpu.go.id/global_assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="https://kab-banyumas.kpu.go.id/global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://kab-banyumas.kpu.go.id/frontend_assets/css/plugins.css" rel="stylesheet">
+	<link href="https://kab-banyumas.kpu.go.id/frontend_assets/css/style.css" rel="stylesheet">
+	<link href="https://kab-banyumas.kpu.go.id/frontend_assets/css/custom.css" rel="stylesheet">
+	<link href="https://kab-banyumas.kpu.go.id/frontend_assets/css/responsive.css" rel="stylesheet">
+	<link href="https://kab-banyumas.kpu.go.id/css/slider.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/eventCalendar.css">
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/eventCalendar_theme_responsive.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+
+	<!-- Template color -->
+	<link href="https://kab-banyumas.kpu.go.id/frontend_assets/css/color-variations/red-dark.css" rel="stylesheet" type="text/css"
+		media="screen" title="blue">
+	<link href='https://kab-banyumas.kpu.go.id/frontend_assets/js/plugins/components/fullcalendar/fullcalendar.min.css' rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/simple-calendar.css">
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/demo.css">
+	<link href="https://kab-banyumas.kpu.go.id/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/light-border.css" />
+
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/translucent.css" />
+	<link rel="stylesheet" href="https://kab-banyumas.kpu.go.id/css/ticker.css" />
+	<style>
+		.dropdown-submenu {
+			position: relative;
+		}
+
+		.dropdown-submenu>.dropdown-menu {
+			top: 0;
+			left: 100%;
+			margin-top: -6px;
+			margin-left: -1px;
+			-webkit-border-radius: 0 6px 6px 6px;
+			-moz-border-radius: 0 6px 6px;
+			border-radius: 0 6px 6px 6px;
+		}
+
+		.dropdown-submenu:hover>.dropdown-menu {
+			display: block;
+		}
+
+		.dropdown-submenu>a:after {
+			display: block;
+			content: " ";
+			float: right;
+			width: 0;
+			height: 0;
+			border-color: transparent;
+			border-style: solid;
+			border-width: 5px 0 5px 5px;
+			border-left-color: #ccc;
+			margin-top: 5px;
+			margin-right: -10px;
+		}
+
+		.dropdown-submenu:hover>a:after {
+			border-left-color: #fff;
+		}
+
+		.dropdown-submenu.pull-left {
+			float: none;
+		}
+
+		.dropdown-submenu.pull-left>.dropdown-menu {
+			left: -100%;
+			margin-left: 10px;
+			-webkit-border-radius: 6px 0 6px 6px;
+			-moz-border-radius: 6px 0 6px 6px;
+			border-radius: 6px 0 6px 6px;
+		}
+
+		.nav-item a {
+			font-size: 12px;
+			color: white !important;
+		}
+
+		.dropdown-submenu a {
+			font-size: 12px;
+			color: black !important;
+		}
+
+		.nav-item {
+			padding: 0px 3px;
+		}
+
+		.dropdown-item a {
+			color: black !important;
+		}
+
+		.breadcrumb{
+			width: 100% !important;
+			background-color: #f9f9f9 !important;
+		}
+	</style>
+
+
+
+
+	<script src="https://kab-banyumas.kpu.go.id/js/backend/app.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://kab-banyumas.kpu.go.id/js/tippy4.3.4.min.js"></script>
+
+	<script src="https://kab-banyumas.kpu.go.id/frontend_assets/js/jquery.js"></script>
+	<script src="https://kab-banyumas.kpu.go.id/js/jquery.simple-calendar.js"></script>
+
+	<link href="https://kab-banyumas.kpu.go.id/global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+
+
+	
+</head>
+
+<body>
+
+
+	<!-- Body Inner -->
+	<div id="app">
+		<div class="body-inner">
+
+			<div id="topbar" class="topbar-fullwidth dark d-none d-xl-block d-lg-block"
+				style="background-color: rgb(216, 39, 49)">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="top-menu">
+								<li><a href="/page/read/37/kontak-kami">Kontak Kami</a></li>
+								<li><a href="/peta-situs">Peta Situs</a></li>
+								<li><a href="/page/read/42/pengaduan-masyarakat-dumas">Kotak Pengaduan</a></li>
+
+							</ul>
+						</div>
+						<div class="col-md-6 d-none d-sm-block">
+							<div class="social-icons social-icons-colored-hover">
+								<ul>
+									<li class="social-facebook"><a href="https://www.facebook.com/KPURepublikIndonesia"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="social-twitter"><a href="https://twitter.com/KPU_ID"><i class="fab fa-twitter"></i></a></li>
+
+									<li class="social-youtube"><a href="https://www.youtube.com/channel/UCVdSz86o9q2cQKvAQ5QhOYg"><i class="fab fa-youtube"></i></a></li>
+									<li class="social-instagram"><a href="https://www.instagram.com/kpu_ri"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end: Topbar -->
+
+			<!-- Header -->
+			<div class="container" style="padding: 0px">
+
+				<img class="desktop" src="https://kab-banyumas.kpu.go.id/images/sliders/images/1647230702KOMISI PEMILIHAN UMUM KABUPATEN BANYUMAS-crop.png" alt=""
+					style="width: 100% !important">
+
+
+			</div>
+
+			<div class="container mobile-container" style="padding: 0px">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+					<div class="mobile">
+						<a class="navbar-brand " href="#">
+							<img src="https://kab-banyumas.kpu.go.id/images/logo.png" style="width: 170;height: 45px" class="d-inline-block align-top"
+								alt="">
+
+						</a>
+
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav">
+							<li class="nav-item active">
+                      <a class="nav-link" href="/">BERANDA <span class="sr-only">(current)</span></a>
+                  </li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">TENTANG</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 43, slug: 'tentang-kpu-kabupaten-banyumas' }}">Tentang KPU Banyumas</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 33, slug: 'struktur-sekretariat-kpu-banyumas' }}">Struktur Organisasi</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 32, slug: 'profil-anggota-kpu-periode-2018-2023' }}">Profil Komisioner</router-link></li><li class="dropdown-item"><a  href="https://drive.google.com/file/d/1Sr8UHXgwCoN6PBWHS709zZDplCb-QmtI/view?usp=sharing" target="_blank">Profil Pejabat Struktural</a></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 34, slug: 'visi-dan-misi-kpu-kabupaten-banyumas' }}">Visi dan Misi</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 38, slug: 'tugas-pokok-dan-fungsi-kpu-kabupaten-banyumas' }}">Tugas Pokok dan Fungsi</router-link></li><li class="dropdown-item"><a  href="https://drive.google.com/file/d/13LpJMnFrPq9RY5jmPvNYDGacijAlIWAX/view?usp=sharing" target="_blank">Renstra KPU Banyumas 2020-2024</a></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 37, slug: 'kontak-kami' }}">Kontak Kami</router-link></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">INFORMASI</router-link><ul class="dropdown-menu"><li class="dropdown-submenu"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle" style="color:#000 !important;" href="https://drive.google.com/drive/folders/1krpZ5o5gWSKv1SDxgHF8-uYSWL4QJ1qU?usp=sharing" target="_blank">Kelembagaan</a><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 51, slug: 'kegiatan-dan-program-tahun-2021' }}">Kegiatan & Program</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 50, slug: 'anggaran-2021' }}">Anggaran</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 52, slug: 'laporan-realisasi-anggaran' }}">Laporan Keuangan</router-link></li><li class="dropdown-item"><router-link  to="#">Perjanjian Kerjasama</router-link></li><li class="dropdown-item"><a  href="https://drive.google.com/file/d/1AIu6G6xgIJ5_1xY-Ot-nabXiu1rfKO__/view?usp=sharing" target="_blank">Laporan Kinerja</a></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 47, slug: 'kebijakan-kpu-kabupaten-banyumas-tahun-2021' }}">Kebijakan KPU Kabupaten Banyumas 2021</router-link></li></ul></li><li class="dropdown-submenu"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle" style="color:#000 !important;" href="https://drive.google.com/drive/folders/17UI3qPeYufxx1Do-ulHqPAde-5tBNDZB?usp=sharing" target="_blank">Pemilu</a><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 58, slug: 'pemilu-pemilu-orde-baru-di-kabupaten-banyumas' }}">Pemilu Orde Baru</router-link></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1UtFlpEL6ccFb32DFDfOn4u7r-BQIlKoA" target="_blank">Pemilu 1999</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1VgtlBKWuwa5cKAB1WCLs0eLcoBDC71V_" target="_blank">Pemilu 2004</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1CI0Zi_lUrpBZNIJpn7h4P0091dYT-x4o" target="_blank">Pemilu 2009</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1lHxezjRqV2ASBf1AHxyZow_Pe8NYgGv7" target="_blank">Pemilu 2014</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1ZNlSIocTt9U5v5PK1qMgo9q9SyXCFzlC?usp=sharing" target="_blank">Pemilu 2019</a></li></ul></li><li class="dropdown-submenu"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle" style="color:#000 !important;" to="#">Pemilihan</router-link><ul class="dropdown-menu"><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1zsu1OvQmFwyDLZW42mAsVsYUk4cLAHp2" target="_blank">Pilkada 2008</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1eOufVb2ZkBgEVgFliRHMHEfULK1POvr4" target="_blank">Pemilukada 2013</a></li><li class="dropdown-item"><a  href="https://drive.google.com/drive/folders/1uYa6Dg5gQSAjmvSP1btVFkZGbOR3mkWU" target="_blank">Pilkada Serentak 2018</a></li></ul></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 41, slug: 'tanggap-covid-19' }}">Tanggap COVID-19</router-link></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" :to="{ name: 'pageRead', params: { id: 56, slug: 'layanan-data' }}">LAYANAN DATA</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 56, slug: 'layanan-data' }}">PPID</router-link></li><li class="dropdown-item"><a  href="http://data.banyumaskab.go.id/dataset?_organization_limit=0&organization=kpu" target="_blank">OPEN DATA</a></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">BERITA</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'berita', params: { id: 29, slug: 'berita-terkini' }}">Berita Terkini</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'berita', params: { id: 135, slug: 'opini' }}">Opini</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 39, slug: 'ulasan-pers' }}">Ulasan Pers</router-link></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">LAYANAN PENGADAAN</router-link><ul class="dropdown-menu"><li class="dropdown-item"><a  href="http://lpse.kpu.go.id/eproc4" target="_blank">LPSE</a></li><li class="dropdown-item"><router-link  :to="{ name: 'berita', params: { id: 135, slug: 'opini' }}">Daftar Pengadaan Tahun 2020</router-link></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">LAYANAN PUBLIK</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 42, slug: 'pengaduan-masyarakat-dumas' }}">Pengaduan Masyarakat</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 59, slug: 'rumah-pintar-pemilu' }}">Rumah Pintar Pemilu</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 40, slug: 'pemutakhiran-data-pemilih-berkelanjutan' }}">Daftar Pemilih Berkelanjutan</router-link></li></ul></li><li class="nav-item"><router-link class="nav-link" :to="{ name: 'pageRead', params: { id: 48, slug: 'reformasi-birokrasi-kpu-kabupaten-banyumas' }}">REFORMASI BIROKRASI</router-link></li><li class="nav-item"><router-link class="nav-link" :to="{ name: 'pageRead', params: { id: 60, slug: 'zona-integritas-kpu-kabupaten-banyumas' }}">ZONA INTEGRITAS</router-link></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">NGODEMAS</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'berita', params: { id: 136, slug: 'ngecebres' }}">NGECEBRES</router-link></li><li class="dropdown-item"><a  href="https://www.youtube.com/playlist?list=PLmphkkdDZ5hiA-pRn7erMkprcAjuX8HE0" target="_blank">NGODEMAS</a></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">PUBLIKASI</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 35, slug: 'majalah-derap-kpu-banyumas' }}">Majalah DERAP</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 36, slug: 'pemilu-dalam-angka-kpu-banyumas' }}">KPU Dalam Angka</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 46, slug: 'kpu-dalam-gambar' }}">KPU Dalam Gambar</router-link></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 57, slug: 'laporan-penyelenggaraan-pemilu-dan-pemilihan' }}">Laporan Penyelenggaraan Pemilu/Pemilihan</router-link></li><li class="dropdown-item"><a  href="https://www.youtube.com/channel/UC0tTUAJApRvjVHKPcb2XoxA" target="_blank">Video</a></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 45, slug: 'hasil-kajiananalisisbuku-pedomanmodul' }}">Hasil Kajian/Analisis/Buku Pedoman/Modul</router-link></li></ul></li><li class="nav-item dropdown"><router-link data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" to="#">MAGANG</router-link><ul class="dropdown-menu"><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 31, slug: 'informasi-magang-kpu-banyumas' }}">Tentang Magang</router-link></li><li class="dropdown-item"><a  href="https://docs.google.com/forms/d/e/1FAIpQLSf5u-Mjvu4wX7QBR08Sy4q0J0ycZKLz-52CZZ3vapGhl_tt0A/viewform" target="_blank">Pengajuan Magang</a></li><li class="dropdown-item"><a  href="https://drive.google.com/file/d/1sxKMokCdmHRaSKrWYWdzVSu-Wch7dl9M/view?usp=sharing" target="_blank">Alumni Magang</a></li><li class="dropdown-item"><router-link  :to="{ name: 'pageRead', params: { id: 23, slug: 'daftar-informasi-publik-ppid-tahun-2020' }}">Dokumentasi Hasil Magang</router-link></li></ul></li><li class="nav-item dropdown"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" href="http://kab-temanggung.kpu.go.id/wp/" target="_blank">MEDSOS</a><ul class="dropdown-menu"><li class="dropdown-item"><a  href="https://www.facebook.com/Banyumas.KPU/" target="_blank">Facebook</a></li><li class="dropdown-item"><a  href="https://www.instagram.com/kpubanyumas/" target="_blank">Instagram</a></li><li class="dropdown-item"><a  href="https://twitter.com/kpubanyumas?lang=en" target="_blank">Twitter</a></li><li class="dropdown-item"><a  href="https://www.tiktok.com/@kpubanyumas?lang=en" target="_blank">TikTok</a></li><li class="dropdown-item"><a  href="https://www.youtube.com/channel/UC0tTUAJApRvjVHKPcb2XoxA" target="_blank">YouTube</a></li><li class="dropdown-item"><a  href="https://open.spotify.com/show/0V5r68lcWDW2z8mu5zbKBl" target="_blank">Spotify</a></li></ul></li>
+
+						</ul>
+						<p></p>
+						<ul class="nav navbar-nav">
+
+						</ul>
+
+
+					</div>
+				</nav>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-top: 1px solid orange">
+
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav">
+							
+
+						</ul>
+
+					</div>
+				</nav>
+
+			</div>
+
+			<div class="container mobile-container" style="padding: 0px">
+				<div class="ticker-container" style="margin-bottom:0px !important">
+					<div class="ticker-caption">
+						<p style="color: #fff">HightLight</p>
+					</div>
+					<ul>
+						<div>
+							<li>
+								<span>
+									Tagline Baru KPU Kabupaten Banyumas "KPU Banyumas SIGAP!" &ndash;
+									<a href="https://www.youtube.com/watch?v=1d7QkaKS7j0" target="_blank">Selengkapnya...</a>
+								</span>
+							</li>
+						</div>
+						</ul>
+				</div>
+			</div>
+
+			<router-view></router-view>
+			<vue-progress-bar></vue-progress-bar>
+
+			
+
+
+
+
+
+
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="footer-content" style="background-color: #333">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-lg-3">
+								<div class="widget">
+									<div class="widget-title">TENTANGKPU</div>
+									<ul class="list footerlist">
+										<li><a href="/page/read/43/tentang-kpu-kabupaten-banyumas">Sejarah KPU</a></li>
+										<li><a href="/page/read/34/visi-dan-misi-kpu-kabupaten-banyumas">Visi Misi</a></li>
+										<li><a href="/page/read/33/struktur-sekretariat-kpu-banyumas">Struktur Organisasi</a></li>
+										<li><a href="/page/read/38/tugas-pokok-dan-fungsi-kpu-kabupaten-banyumas">Tugas dan Kewenangan KPU</a></li>
+
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-3">
+								<div class="widget">
+									<div class="widget-title">KONTAK</div>
+									<ul class="list footerlist">
+										<li><a href="/page/read/1108/kontak-kami">Kontak Kami</a></li>
+										<li><a href="https://twitter.com/KPUBanyumas">Twitter</a></li>
+										<li><a href="https://www.facebook.com/Banyumas.KPU">Facebook</a></li>
+										<li><a href="https://www.youtube.com/channel/UC0tTUAJApRvjVHKPcb2XoxA">Youtube</a></li>
+										<li><a href="https://www.instagram.com/kpubanyumas/">Instagram</a></li>
+										<li><a href="/peta-situs">Peta Situs</a></li>
+										<li><a href="/page/read/1107/kontak-pengaduan">Kotak Pengaduan</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-3">
+								<div class="widget">
+									<div class="widget-title">BERITA</div>
+									<ul class="list footerlist">
+										<li><a href="/berita/104/berita-terkini">Berita Terkini</a></li>
+										<li><a href="/berita/135/opini">Opini</a></li>
+										<li><a href="/berita/105/berita-kpu-daerah">Berita KPU Daerah</a></li>
+										<li><a href="/berita/96/kpu-dalam-berita">KPU dalam Berita</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="widget">
+									<div class="widget-title">SURAT EDARAN/PENGUMUMAN</div>
+									<ul class="list footerlist">
+										<li><a href="/arsip/7/surat-edaran-juknis-lain-lain">Surat Edaran</a></li>
+										<li><a href="/berita/11/pengumumanse">Pengumuman</a></li>
+								</div
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="copyright-content">
+					<div class="container">
+						<div class="copyright-text text-center">&copy; 2021 Komisi Pemilihan Umum Republik Indonesia
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- end: Footer -->
+
+		</div>
+		<!-- end: Body Inner -->
+
+		<div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 id="modal-label-2" class="modal-title">Small Modal</h4>
+						<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-12">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque architecto
+									quae ullam rem labore veritatis.</p>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="float-left">
+							<button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- Scroll top -->
+	<a id="scrollTop"><i class="icon-chevron-up1"></i><i class="icon-chevron-up1"></i></a>
+	<!--Plugins-->
+
+	<script src="https://kab-banyumas.kpu.go.id/frontend_assets/js/plugins.js"></script>
+
+	<!--Template functions-->
+	<script src="https://kab-banyumas.kpu.go.id/frontend_assets/js/functions.js"></script>
+	<script src="https://kab-banyumas.kpu.go.id/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	
+	<script src=" /js/app.js "></script>
+	<script src="https://kab-banyumas.kpu.go.id/js/ticker.js "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+
+	
+	<script type="text/javascript">
+		$(document).ready(function () {
+            // Event Demo init
+            var url = 'https://kab-banyumas.kpu.go.id/api/agenda';
+
+            $.ajax({
+              url: url,
+              method: 'GET',
+              success: function(response){
+                var agenda = response.data.data_agenda.split(',');
+                agenda.pop();
+                // console.log(agenda);
+
+                $("#event-cal-container ").simpleCalendar({
+                    events: agenda,
+                    // eventsInfo: ['Agenda', 'Agenda','Agenda', 'Agenda'],
+                    selectCallback: function(date){
+                        // console.log('date selected '+date);
+                        getAgenda(date);
+                        // $('#modal-2').modal('show');
+                    }
+                });
+
+                tippy('.day.event', {
+                    theme: 'translucent',
+                });
+              }
+            });
+
+
+         
+        });
+
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+              if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+              }
+              var $subMenu = $(this).next(".dropdown-menu");
+              $subMenu.toggleClass('show');
+
+
+              $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $('.dropdown-submenu .show').removeClass("show");
+              });
+
+
+              return false;
+            });
+            
+
+
+        function getAgenda(date){
+          var url = 'https://kab-banyumas.kpu.go.id/api/agenda/show/'+date;
+          $.ajax({
+            url: url,
+            method: 'GET',
+            success: function(response){
+                $('.detail-agenda').html(response);
+                $('.listAgenda').show();
+              
+            }
+          });
+          // console.log(url);
+        }
+
+    
+
+	</script>
+	
+
+</body>
+
+</html>
